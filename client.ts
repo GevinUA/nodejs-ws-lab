@@ -11,6 +11,7 @@ interface ICoords {
   };
   // x: number;
   // y: number;
+  //done
 }
 
 const DEBUG = false; // Render debug physics entities
