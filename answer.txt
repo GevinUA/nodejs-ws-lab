@@ -1,11 +1,39 @@
 Question 1: What do you see in the browser? When you open another tab and perform a click/drag action, what happens?
 The browser shows a bunny that can drag with. The two different tabs show the same position of the bunny after we drag it.
 
+
+
 Question 2: What are some of the differences between TypeScript and JavaScript?
+
 Typescipt is an compiled objected-oriented language, while JavaScript is simply interpreted scripting language.
+Typescript also adding a concept of 'module', could encapsulate the declaration, function, data, e.t.c in it., while JS does not.
+Typescript requires variable to have its type, while JS does not.
+Typescript have the "class" concept, while JS does not.
+
+
 
 Question 3: Why is a web application bundler (Parcel, Webpack, Rollup, etc.) useful for modern web projects? What are some features that ParcelJS provides?
 
+Because it helps web developers manage a group of tools that solve related problems, like Transpiling higher-level languages into HTML, CSS and JavaScript
+Serving files on an ad-hoc HTTP server with live-reloading, Preparing the application for production: minify, concatenate, uglify.
+(referenced from https://medium.com/fusebox/beginner-web-developers-use-a-bundler-31ab0c91d2f5)
+
+Some features of ParcelJS: (https://parceljs.org/)
+Dev server: Parcel includes a development server out of the box. 
+Hot reloading: When you make a change, Parcel automatically updates your code in the browser – no page reload necessary!
+
+
+
 Question 4: What are the different values for the readyState a WebSocket can be in? Briefly describe what each state means. (Hint: check out the Mozilla WebSocket API)
 
+0 -- indicates that the connection has not yet been established.
+1 -- indicates that the connection is established and communication is possible.
+2 -- indicates that the connection is going through the closing handshake.
+3 -- indicates that the connection has been closed or could not be opened.
+
+referenced from: https://www.tutorialspoint.com/html5/html5_websocket.htm
+
+
 Question 5: What's the link to your github repo?
+
+https://github.com/GevinUA/nodejs-ws-lab

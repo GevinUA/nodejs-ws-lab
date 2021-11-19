@@ -25,7 +25,7 @@ function bundleClient() {
 }
 
 /**
- * Setup a quick Web Socket server
+ * Setup a quick Web Socket server!
  */
 function setupWSServer(server) {
   const wss = new WebSocketServer({
